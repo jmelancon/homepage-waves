@@ -1,0 +1,44 @@
+:root {
+    /* Calculated w/ variables from variables.css, don't edit here! */
+    --table-margin-x: calc(var(--section-padding) - (4px * var(--effect-scale)));
+    --table-width:
+            calc(
+                100dvw - (
+                    (
+                        var(--page-margin) +
+                        var(--page-padding) +
+                        var(--section-padding) +
+                        var(--table-margin-x) +
+                        4px * var(--effect-scale)
+                    ) * 2
+                )
+            );
+}
+
+table {
+    box-shadow: #00000019
+        calc(1px * var(--effect-scale))
+        calc(1px * var(--effect-scale))
+        calc(6px * var(--effect-scale));
+    color: var(--font-color);
+    overflow: auto;
+    max-width: 100%;
+    white-space: initial !important;
+    display: block;
+    border-spacing: calc(2px * var(--effect-scale));
+    margin: 0 var(--content-margin-y) !important;
+}
+
+th {
+    font-family: var(--header-fonts);
+    text-align: left;
+    background: var(--table-header-background);
+    border: calc(1px * var(--effect-scale)) solid var(--table-header-border);
+    padding: calc(6px * var(--effect-scale));
+}
+td {
+    font-family: var(--content-fonts);
+    background: var(--table-cell-background);
+    border: calc(1px * var(--effect-scale)) solid var(--table-cell-border);
+    padding: calc(4px * var(--effect-scale));
+}

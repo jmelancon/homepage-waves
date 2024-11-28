@@ -1,0 +1,64 @@
+:root {
+    --backdrop-gradient: linear-gradient(130deg, white, #999999);
+    --font-color: black;
+    --intro-color: white;
+    --tint-strength: 0.05;
+    --wave-opacity: 0.1;
+    --tint-color: "#000000";
+    --section-background: #ffffff99;
+    --section-border: #ffffff55;
+    --table-header-background: #fffd;
+    --table-header-border: #fff;
+    --table-cell-background: #fff7;
+    --table-cell-border: #fff8;
+    --header-fonts: "IBM Plex Mono", sans-serif;
+    --content-fonts: "Lato", sans-serif;
+    --page-margin: 3rem;
+    --page-padding: 12rem;
+    --section-padding: 18px;
+    --section-gap: 1rem;
+    --text-scale: 1;
+    --heading-scale: 1;
+    --title-scale: 1;
+    --effect-scale: 1;
+    --content-margin-x: 10px;
+    --content-margin-y: 8px;
+    --header-margin-x: 4px;
+    --header-margin-y: -4px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --backdrop-gradient: linear-gradient(130deg, #555555, black);
+        --font-color: white;
+        --intro-color: black;
+        --tint-strength: 0.1;
+        --wave-opacity: 0.15;
+        --section-background: #00000088;
+        --section-border: #00000011;
+        --table-header-background: #fff2;
+        --table-header-border: #fff4;
+        --table-cell-background: #fff1;
+        --table-cell-border: #fff2;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 800px){
+    :root{
+        --page-margin: 0.5rem;
+        --page-padding: 0.5rem;
+        --section-gap: 1rem;
+        --title-scale: 0.75;
+    }
+}
+
+@media only screen and (max-width: 799px){
+    :root{
+        --page-margin: 0.2rem;
+        --page-padding: 0.2rem;
+        --section-gap: 0.5rem;
+        --section-padding: 12px;
+        --heading-scale: 0.75;
+        --title-scale: 0.5;
+    }
+}

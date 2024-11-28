@@ -1,0 +1,34 @@
+#content header h1 {
+    font-size: calc(4rem * var(--title-scale));
+}
+
+#content h1, h2, p, a, nav{
+    color: var(--font-color);
+}
+
+#content h1, h2{
+    margin: 0;
+    font-family: var(--header-fonts);
+    font-weight: bold;
+}
+
+#content h1 {
+    font-size: calc(4rem * var(--heading-scale));
+}
+
+#content h2 {
+    font-size: calc(2.5rem * var(--heading-scale));
+}
+
+#content p, nav, a, td, th {
+    font-size: calc(1rem * var(--text-scale));
+    font-family: var(--content-fonts);
+    font-weight: 400;
+    opacity: .75
+}
+
+nav span:not(:first-child):before {
+    content: ' ~ ';
+    padding: 0 calc(var(--text-scale) / 2);
+    text-decoration: none;
+}

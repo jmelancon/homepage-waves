@@ -1,0 +1,34 @@
+@keyframes tint-fade-in{
+    0%{
+        background-color: var(--intro-color);
+        opacity: 1
+    }
+
+    66%{
+        background-color: var(--intro-color);
+        opacity: var(--tint-strength)
+    }
+
+    to{
+        background-color: var(--tint-color);
+        opacity: var(--tint-strength)
+    }
+}
+
+@keyframes content-fade-in{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#tint{
+    animation: tint-fade-in 3s;
+}
+
+#content{
+    animation: content-fade-in 3s;
+}
