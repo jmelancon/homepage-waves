@@ -32,3 +32,12 @@ nav span:not(:first-child):before {
     padding: 0 calc(var(--text-scale) / 2);
     text-decoration: none;
 }
+
+#content code {
+    font-size: 12px;
+    background: var(--table-header-background);
+    border: 1px var(--table-header-border);
+    border-radius: 2px;
+    box-shadow: 0 1px 5px #00000033;
+    font-family: var(--header-fonts), monospace;
+}

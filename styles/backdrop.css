@@ -1,39 +1,43 @@
 /* Intro animation. Pulls waves up into view. */
 @keyframes waves-enter{
     0% {
-        top: 75vw;
+        transform: translateY(75vw);
     }
 
     to {
-        top: 0;
+        transform: translateY(0);
     }
 }
 
 /* Primary wave animation. Just pulls them to the left on loop. */
 @keyframes left{
     from {
-        background-position-x: 0;
+        transform: translateX(0) translateZ(0);
     }
 
     to {
-        background-position-x: -400vw;
+        transform: translateX(-800vw) translateZ(0);
     }
 }
 
 /* Animations */
 #wave1{
     animation: left infinite linear 50s, waves-enter 7s;
+    animation-delay: 7s, 0s;
 }
 
 #wave2{
     animation: left infinite linear 30s, waves-enter 6s;
+    animation-delay: 6s, 0s;
 }
 
 /* Wave generic */
 .wave{
     opacity: var(--wave-opacity);
-    background-size: 200vw 100vh;
-    will-change: background-position-x;
+    background-size: 800vw 100vh;
+    background-repeat: repeat-x;
+    width: 1200vw;
+    will-change: transform;
 }
 
 /* Subtle gradient */

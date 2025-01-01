@@ -5,14 +5,16 @@ fontfamily: helvet
 header-includes:
   - \renewcommand{\familydefault}{\sfdefault}
   - \pagenumbering{gobble}
+  - \setlength\LTleft{0pt}
+  - \setlength\LTright{0pt}
 ---
+
 # Joseph Melancon \hfill{} CompSci Junior @ University of North Dakota
 
-
-| **METHOD** | Contact Info                                                                                                                           |
+| **METHOD** | Contact Info \hspace*{14.675cm}                                                                                                        |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **MAIL**   | [Redacted for Privacy] - Grand Forks, ND 58201                                                                                         |
-| **PHONE**  | Mobile: [Redacted for Privacy]                                                                                                         |
+| **MAIL**   | \[Redacted for Privacy\] - Grand Forks, ND 58201                                                                                       |
+| **PHONE**  | Mobile: \[Redacted for Privacy\]                                                                                                       |
 | **EMAIL**  | Personal: [*joseph@jmelancon.com*](mailto:joseph@jmelancon.com); Academic: [*joseph.melancon@UND.edu*](mailto:joseph.melancon@und.edu) |
 | **WEB**    | Homepage: [*jmelancon.com*](https://jmelancon.com); GitHub: [*github.com/jmelancon*](https://github.com/jmelancon)                     |
 
@@ -23,17 +25,17 @@ header-includes:
 *University of North Dakota \hfill Grand Forks, ND, May 2026*
 
  - GPA of 3.736, President's Honor Roll in Spring 2023
- - Minors in Mathematics (Incomplete) & Cybersecurity (Incomplete)
+ - Minors in Mathematics (Complete) & Cybersecurity (Incomplete)
 
 ## SKILLS
 
-| **CATEGORY**           | Relevant Skills |
-|------------------------|-----------------------------------------------------------------|
-| **TOOLS**              | MySQL, Kafka, Docker, Docker Compose, Linux (Debian, Alpine), Git VCS, SSH |
-| **LANGUAGES**          | Python3, PHP, Java, JavaScript, Golang, C, C++ |
-| **LANGUAGE-ADJACENT**  | HTML/CSS, RSS, Markdown, JSON |
-| **EDITORS & IDES**     | JetBrains Suite, Visual Studio Code, Vim |
-| **PRODUCTIVITY**       | Microsoft Office, Adobe Photoshop |
+| **CATEGORY**           | Relevant Skills                                                       |
+|------------------------|-----------------------------------------------------------------------|
+| **TOOLS**              | MariaDB, Docker, Docker Compose, Linux (Debian, Alpine), Git VCS, SSH |
+| **LANGUAGES**          | Python3, PHP, Java, JavaScript, Golang, C, C++                        |
+| **LANGUAGE-ADJACENT**  | HTML/CSS, RSS, Markdown, JSON, Protobuf                               |
+| **EDITORS & IDES**     | JetBrains Suite, Visual Studio Code, Vim                              |
+| **PRODUCTIVITY**       | Microsoft Office, Adobe Photoshop                                     |
 
 ## WORK EXPERIENCE
 
