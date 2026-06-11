@@ -33,9 +33,8 @@ body{
 }
 
 #content {
-    z-index: 2;
-    margin: var(--page-margin);
-    padding: 0 var(--page-padding);
+    margin: auto;
+    max-width: min(80rem, calc(100vw - var(--page-margin) * 2));
 }
 
 #content > section > *{
