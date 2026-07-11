@@ -39,7 +39,7 @@ header-includes:
 ## WORK EXPERIENCE
 
 ### UND University Information Technology
-*Junior Software Engineer \hfill Grand Forks, ND, Full-time, May 2025 - Present*
+*Software Engineer \hfill Grand Forks, ND, Full-time, May 2025 - Present*
 
  - Develop, maintain, and support applications and specialized forms used by students, faculty, and staff
  - Diagnose, troubleshoot, and resolve problems that arise in production environments
