@@ -9,47 +9,47 @@ header-includes:
   - \setlength\LTright{0pt}
 ---
 
-# Joseph Melancon \hfill{} CompSci Junior @ University of North Dakota
+# Joseph Melancon \hfill{} Software Engineer
 
-| **METHOD** | Contact Info \hspace*{14.675cm}                                                                                                        |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **MAIL**   | \[Redacted for Privacy\] - Grand Forks, ND 58201                                                                                       |
-| **PHONE**  | Mobile: \[Redacted for Privacy\]                                                                                                       |
-| **EMAIL**  | Personal: [*joseph@jmelancon.com*](mailto:joseph@jmelancon.com); Academic: [*joseph.melancon@UND.edu*](mailto:joseph.melancon@und.edu) |
-| **WEB**    | Homepage: [*jmelancon.com*](https://jmelancon.com); GitHub: [*github.com/jmelancon*](https://github.com/jmelancon)                     |
+| **METHOD** | Contact Info \hspace*{14.675cm}                                                                                    |
+|------------|--------------------------------------------------------------------------------------------------------------------|
+| **MAIL**   | \[Redacted for Privacy\] - Grand Forks, ND 58201                                                                   |
+| **PHONE**  | Mobile: \[Redacted for Privacy\]                                                                                   |
+| **EMAIL**  | Personal: [*joseph@jmelancon.com*](mailto:joseph@jmelancon.com)                                                    |
+| **WEB**    | Homepage: [*jmelancon.com*](https://jmelancon.com); GitHub: [*github.com/jmelancon*](https://github.com/jmelancon) |
 
 ## EDUCATION
 
-### Bachelor of Science in Computer Science (Incomplete)
+### Bachelor of Science in Computer Science
 
 *University of North Dakota \hfill Grand Forks, ND, May 2026*
 
  - GPA of 3.736, President's Honor Roll in Spring 2023
- - Minors in Mathematics (Complete) & Cybersecurity (Incomplete)
+ - Minors in Mathematics & Cybersecurity
 
 ## SKILLS
 
 | **CATEGORY**           | Relevant Skills                                                       |
 |------------------------|-----------------------------------------------------------------------|
 | **TOOLS**              | MariaDB, Docker, Docker Compose, Linux (Debian, Alpine), Git VCS, SSH |
-| **LANGUAGES**          | Python3, PHP, Java, JavaScript, Golang, C, C++                        |
-| **LANGUAGE-ADJACENT**  | HTML/CSS, RSS, Markdown, JSON, Protobuf                               |
+| **LANGUAGES**          | PHP, TypeScript, JavaScript, Python, Golang                           |
+| **LANGUAGE-ADJACENT**  | HTML/CSS, RSS, Markdown, JSON, XML                                    |
 | **EDITORS & IDES**     | JetBrains Suite, Visual Studio Code, Vim                              |
 | **PRODUCTIVITY**       | Microsoft Office, Adobe Photoshop                                     |
 
 ## WORK EXPERIENCE
 
-### UND College of Engineering & Mines  
-  
-*Undergraduate Research Assistant \hfill Grand Forks, ND, Part-time, Jan 2024 - May 2024*
-
- - Develop methods for enabling telemetry in software-defined networks with custom-programmed solutions
- - Manage collaboration between contributors using Git VCS
- - Deliver findings in an understandable and digestible format
-
 ### UND University Information Technology
-  
-*Full-Stack Web Developer \hfill Grand Forks, ND, Part-time, Jun 2024 - Present*
+*Junior Software Engineer \hfill Grand Forks, ND, Part-time, May 2025 - Present*
+
+ - lorem ipsum
+ - dolor sit amet
+ - a
+
+```
+```
+
+*Student Web Developer \hfill Grand Forks, ND, Part-time, Jun 2024 - May 2025*
 
  - Interpret, document, and refactor insecure and undocumented code
  - Identify and document vulnerabilities in existing codebase to ensure they are patched
