@@ -24,10 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Add Pandoc Dependencies
+        run: apt install -y pandoc texlive
+
       - name: Build Resume
-        uses: docker://pandoc/extra:3.8
-        with:
-          args: -i assets/resume.md -o assets/resume.pdf --pdf-engine=pdflatex
+        run: pandoc -i assets/resume.md -o assets/resume.pdf
 
       - name: Set Last-Modified in Sitemap
         run: sed -i "s/1970-01-01/$(date --utc +%Y-%m-%d)/g" sitemap.xml
