@@ -11,7 +11,7 @@ header-includes:
 
 # Joseph Melancon \hfill{} Software Engineer
 
-| **METHOD** | Contact Info \hspace*{14.675cm}                                                                                    |
+| **METHOD** | Contact Info                                                                                    |
 |------------|--------------------------------------------------------------------------------------------------------------------|
 | **MAIL**   | \[Redacted for Privacy\] - Grand Forks, ND 58201                                                                   |
 | **PHONE**  | Mobile: \[Redacted for Privacy\]                                                                                   |
@@ -24,8 +24,7 @@ header-includes:
 
 *University of North Dakota \hfill Grand Forks, ND, May 2026*
 
- - GPA of 3.736, President's Honor Roll in Spring 2023
- - Minors in Mathematics & Cybersecurity
+ - 3.365 GPA, Minors in Mathematics & Cybersecurity
 
 ## SKILLS
 
@@ -42,9 +41,9 @@ header-includes:
 ### UND University Information Technology
 *Junior Software Engineer \hfill Grand Forks, ND, Part-time, May 2025 - Present*
 
- - lorem ipsum
- - dolor sit amet
- - a
+ - Develop, maintain, and support applications and specialized forms used by students, faculty, and staff
+ - Diagnose, troubleshoot, and resolve problems that arise in production environments
+ - Integrate various SaaS applications with student information systems via vendor APIs
 
 ```
 ```
