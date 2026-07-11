@@ -1,5 +1,5 @@
 /* Intro animation. Pulls waves up into view. */
-@keyframes waves-enter{
+@keyframes waves-enter {
     0% {
         transform: translateY(75vw);
     }
@@ -10,7 +10,7 @@
 }
 
 /* Primary wave animation. Just pulls them to the left on loop. */
-@keyframes left{
+@keyframes left {
     from {
         transform: translateX(0) translateZ(0);
     }
@@ -21,18 +21,18 @@
 }
 
 /* Animations */
-#wave1{
+#wave1 {
     animation: left infinite linear 50s, waves-enter 7s;
     animation-delay: 7s, 0s;
 }
 
-#wave2{
+#wave2 {
     animation: left infinite linear 30s, waves-enter 6s;
     animation-delay: 6s, 0s;
 }
 
 /* Wave generic */
-.wave{
+.wave {
     opacity: var(--wave-opacity);
     background-size: 800vw 100vh;
     background-repeat: repeat-x;
@@ -41,27 +41,29 @@
 }
 
 /* Subtle gradient */
-#background{
+#background {
     position: fixed;
     background-image: var(--backdrop-gradient);
     z-index: -1;
 }
 
 /* Noise to smooth out any banding in the gradient */
-#noise > div:first-child{
+#noise>div:first-child {
     background-image: url("../assets/71noise.png");
+    background-size: calc(71px / 2);
     height: 100vh;
     opacity: 0.05;
 }
 
-#noise > div:last-child{
+#noise>div:last-child {
     background-image: url("../assets/109noise.png");
+    background-size: calc(109px / 2);
     height: 100vh;
     opacity: 0.02;
 }
 
 /* Background's just grey by default, but with a pinch of JS, we can tint it a random color. */
-#tint{
+#tint {
     background: var(--tint-color);
     opacity: var(--tint-strength);
 }
